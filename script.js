@@ -21,7 +21,7 @@ function openWhatsAppChat() {
   window.open(whatsappUrl, "_blank");
 }
 
-// Galeri
+// Galeri dan Autozoom
 
 const galeriItems = document.querySelectorAll(".galeri-item");
 

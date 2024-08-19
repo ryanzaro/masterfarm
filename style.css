@@ -215,16 +215,6 @@ body {
 .galeri h2 {
   margin-bottom: 2rem;
 }
-/* .menu p,
-.contact p,
-.galeri p {
-  text-align: center;
-  max-width: 30rem;
-  margin: auto;
-  font-weight: 100;
-  line-height: 1.6;
-  font-size: 1.4rem;
-} */
 
 .menu .row {
   display: flex;
