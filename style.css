@@ -282,7 +282,7 @@ body {
 .contact .row {
   display: flex;
   margin-top: 2rem;
-  background-color: #222;
+  background-color: var(--bg);
 }
 
 .contact .row .map {
@@ -297,31 +297,15 @@ body {
   text-align: center;
 }
 
-.contact .row form .input-group {
-  display: flex;
-  align-items: center;
-  margin-top: 2rem;
-  background-color: var(--bg);
-  border: 1px solid #eee;
-  padding-left: 2rem;
+/* Testimoni Section */
+.testimoni .testimoni-card {
+  margin-bottom: 3rem;
 }
 
-.contact .row form .input-group input {
-  width: 100%;
-  padding: 2rem;
-  font-size: 1.7rem;
-  background: none;
-  color: #fff;
-}
-
-.contact .row form .btn {
-  margin-top: 3rem;
-  display: inline-block;
-  padding: 1rem 3rem;
-  font-size: 1.7rem;
-  color: #fff;
-  background-color: var(--primary);
-  cursor: pointer;
+.testimoni .testimoni-card img {
+  border-radius: 90%;
+  width: 30%;
+  margin-bottom: 0.5rem;
 }
 
 /* Footer */
