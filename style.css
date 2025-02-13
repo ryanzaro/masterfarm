@@ -280,36 +280,52 @@ body {
 }
 
 /* Testimoni Section */
-.testimoni .testi {
-  display: flex;
-}
-
-.testimoni .testi .testi-img {
-  flex: 1 1 45rem;
+.testimoni {
   text-align: center;
 }
 
-.testimoni .testi .testi-img img {
-  width: 45%;
-  border-radius: 30%;
+.testimoni-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 900px;
+  margin: auto;
 }
 
-.testimoni .testi .testimoni-kata {
-  flex: 1 1 35rem;
-  padding: 0 1rem;
+.testi {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  background: var(--bg);
+  padding: 15px;
+  border-radius: 10px;
 }
 
-.testimoni .testi .testimoni-kata h3 {
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
-  font-weight: 300;
+.testi-left {
+  flex-direction: row;
 }
 
-.testimoni .testi .testimoni-kata p {
-  margin-bottom: 0.8rem;
-  font-size: 1.4rem;
-  font-weight: 100;
-  line-height: 1.6;
+.testi-right {
+  flex-direction: row-reverse;
+}
+
+.testi-img img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #f4a261;
+}
+
+.testimoni-kata {
+  max-width: 400px;
+  text-align: center;
+}
+
+.testimoni-kata h3,
+.testimoni-kata p {
+  color: #bbb; /* Warna yang lebih netral */
 }
 
 /* Contact Section */
