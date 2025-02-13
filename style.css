@@ -158,14 +158,16 @@ body {
 .about,
 .menu,
 .galeri,
-.contact {
+.testimoni
+/* .contact  */ {
   padding: 8rem 7% 1.4rem;
 }
 
 .about h2,
 .menu h2,
 .galeri h2,
-.contact h2 {
+.testimoni h2
+/* .contact h2  */ {
   text-align: center;
   font-size: 2.6rem;
   margin-bottom: 3rem;
@@ -174,7 +176,8 @@ body {
 .about h2 span,
 .menu h2 span,
 .galeri h2 span,
-.contact h2 span {
+.testimoni h2 span
+/* .contact h2 span,  */ {
   color: var(--primary);
 }
 
@@ -210,9 +213,7 @@ body {
 }
 
 /* Menu Section */
-.menu h2,
-.contact h2,
-.galeri h2 {
+.menu h2 {
   margin-bottom: 2rem;
 }
 
@@ -278,8 +279,41 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+/* Testimoni Section */
+.testimoni .testi {
+  display: flex;
+}
+
+.testimoni .testi .testi-img {
+  flex: 1 1 45rem;
+  text-align: center;
+}
+
+.testimoni .testi .testi-img img {
+  width: 45%;
+  border-radius: 30%;
+}
+
+.testimoni .testi .testimoni-kata {
+  flex: 1 1 35rem;
+  padding: 0 1rem;
+}
+
+.testimoni .testi .testimoni-kata h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+.testimoni .testi .testimoni-kata p {
+  margin-bottom: 0.8rem;
+  font-size: 1.4rem;
+  font-weight: 100;
+  line-height: 1.6;
+}
+
 /* Contact Section */
-.contact .row {
+/* .contact .row {
   display: flex;
   margin-top: 2rem;
   background-color: var(--bg);
@@ -296,25 +330,14 @@ body {
   flex: 1 1 45rem;
   padding: 5rem 2rem;
   text-align: center;
-}
-
-/* Testimoni Section */
-.testimoni .testimoni-card {
-  margin-bottom: 3rem;
-}
-
-.testimoni .testimoni-card img {
-  border-radius: 90%;
-  width: 30%;
-  margin-bottom: 0.5rem;
-}
+} */
 
 /* Footer */
 footer {
   background-color: var(--primary);
   text-align: center;
-  padding: 1rem 0 3rem;
-  margin-top: 3rem;
+  padding: 1rem 0 1rem;
+  margin-top: 2rem;
 }
 
 footer .socials {
